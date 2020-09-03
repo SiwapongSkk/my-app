@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Bar, Line, Pie} from 'react-chartjs-2';
 //0
-//88
+//81
 class Chart extends Component{
   constructor(props){
     super(props);
