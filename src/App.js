@@ -11,7 +11,9 @@ import Create_examination from "./components/create_examination"
 import Create_patient from "./components/create_patient"
 import Doctor_list from "./components/doctor_list"
 import Examination_list from "./components/examination_list"
-import Patient_chart from './components/patient_chart';
+import Patient_chart from './components/patient_chart'
+import Login from './components/login'
+import Register from './components/register'
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
       <Route path="/create_examination" component={Create_examination} />
       <Route path="/create_doctor" component={Create_doctor} />
       <Route path="/patient_chart" component={Patient_chart} />
+      <Route path="/login" component={Login} />
+      <Route path="/register" component={Register} />
       </div>
     </Router>
       
