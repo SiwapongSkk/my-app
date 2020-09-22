@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <div className="container">
+      <div >
       <Navbar />
       <br/>
       <Route path="/" exact component={Patient_list} />
