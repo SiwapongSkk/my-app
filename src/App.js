@@ -14,6 +14,7 @@ import Examination_list from "./components/examination_list"
 import Patient_chart from './components/patient_chart'
 import Login from './components/login'
 import Register from './components/register'
+import Home from './components/home'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Route path="/patient_chart" component={Patient_chart} />
       <Route path="/login" component={Login} />
       <Route path="/register" component={Register} />
+      <Route path="/home" component={Home} />
       </div>
     </Router>
       
